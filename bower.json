@@ -1,0 +1,11 @@
+{
+  "name": "panprokopcom",
+  "version": "0.0.0",
+  "dependencies": {
+    "normalize-css": "~3.0.1"
+  },
+  "devDependencies": {
+    "skeleton-sass": "~2.0.4",
+    "foundation": "zurb/bower-foundation#~5.5.1"
+  }
+}

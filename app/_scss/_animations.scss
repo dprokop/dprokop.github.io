@@ -1,0 +1,127 @@
+
+
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(100);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.65);
+  }
+  80% { transform: scale(1.45); }
+  100% { transform: scale(1); }
+}
+
+/**
+*
+* BOUNCE-IN animation
+* Used for animation logotype slash element
+*
+**/
+
+@keyframes bounce-slash {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(45deg);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.15) rotate(45deg);
+  }
+  80% { transform: scale(1.05) rotate(45deg); }
+  100% { opacity: 1;transform: scale(1) rotate(45deg); }
+}
+
+/**
+*
+* SLIDE-IN-RIGHT animation
+* Used for animation logotype PROKOP element
+*
+**/
+
+@keyframes slide-in-right {
+  0% {
+    fill-opacity: 0;
+    transform: translate3d(20px, 0,0) scale(.99);
+  }
+
+  100% {
+    fill-opacity: 1;
+   transform: translate3d(0,0,0) scale(1);
+  }
+}
+
+
+/**
+*
+* SLIDE-IN-LEFT animation
+* Used for animation logotype PAN element
+*
+**/
+@keyframes slide-in-left {
+  0% {
+    fill-opacity: 0;
+    transform: translate3d(-20px, 0,0) scale(.99);
+  }
+
+  100% {
+    fill-opacity: 1;
+   transform: translate3d(0,0,0) scale(1);
+  }
+}
+
+
+
+/**
+*
+* SLIDE-IN-BOTTOM animation
+* Used for animation hero element
+*
+**/
+
+@keyframes slide-in-bio {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,-23vh,0) scale(.99);
+  }
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+   transform: translate3d(0,-25vh, 0) scale(1);
+  }
+}
+
+@keyframes slide-in-skills{
+  0% {
+    opacity: 0;
+    transform: translate3d(0,5vh,0) scale(.99);
+  }
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+   transform: translate3d(0,0, 0) scale(1);
+  }
+}
+
+@keyframes slide-in-contact{
+  0% {
+    opacity: 0;
+    transform: translate3d(0,1vh,0) scale(.99);
+  }
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+   transform: translate3d(0,0, 0) scale(1);
+  }
+}

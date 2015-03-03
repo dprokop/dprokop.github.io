@@ -1,4 +1,5 @@
 /*global inViewport */
+/*jshint multistr: true */
 
 (function(){
   var contactBox = document.getElementById('contactContainer');
@@ -12,7 +13,7 @@
     skillsBox.className+=' animate';
   });
 
-  console.log("\
+  console.log('\
  ###################################################### \n \
 ##                                                    ##\n \
 ##                                                    ##\n \
@@ -26,5 +27,5 @@
 ##         prokopd@gmail.com   |   @prokopd           ##\n \
 ##                                                    ##\n \
 ##                                                    ##\n \
- ###################################################### ");
+ ###################################################### ');
 })();

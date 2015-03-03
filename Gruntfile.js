@@ -146,6 +146,12 @@ module.exports = function (grunt) {
         cwd: '.tmp',
         src: '**/{css,concat}/*.css',
         dest: '.tmp'
+      },
+      distBuild: {
+        expand: true,
+        cwd: '<%= yeoman.dist %>',
+        src: '**/{css,concat}/*.css',
+        dest: '<%= yeoman.dist %>/css',
       }
     },
     jekyll: {
@@ -379,8 +385,8 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'cssmin',
     'autoprefixer:dist',
+    'cssmin',
     'uglify',
     'imagemin',
     'svgmin',

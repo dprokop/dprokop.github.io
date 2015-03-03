@@ -1,4 +1,3 @@
-
 p.browsehappy {
   background: #fff000;
   padding: 2rem;
@@ -10,11 +9,13 @@ p.browsehappy {
   width: 100%;
   z-index: 100;
 }
+
 a {
   &:hover {
     text-decoration: line-through;
   }
 }
+
 .text--uppercase { 
   text-transform: uppercase;
 }

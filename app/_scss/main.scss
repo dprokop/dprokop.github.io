@@ -201,14 +201,23 @@ html{
 .site__social-links {
   margin-top:.5rem;
   text-align: center;
+   li:first-child {
+    margin-left: 0;
+  }
   @media #{$large-up} {
     margin-top: 0;
     text-align: right;
   }
 }
 
+.site__contact-links{
+  li {
+    margin-left: 0;
+  }
+}
 
 .site__copyrights {
   padding-bottom: 10rem;
   text-align: center;
+
 }
